@@ -1,28 +1,33 @@
+
 #!/bin/bash
 
+
+cd cruiser
+echo "************************************************************************************************************************************************************************"
+echo "Opening maps"
+sleep 2
+echo ""
+echo ""
+echo "Setting things up for route optimization"
+sleep 1
+echo ""
+echo ""
+sudo ./cruiser.sh
+echo "Done mapping."
+echo ""
+echo ""
+echo "Alternate routes set up"
+echo "************************************************************************************************************************************************************************"
+
 cd ..
-echo "Resolving Tracks and Waypoints"
-echo ".."
-echo ".."
+sudo scp vasu.gpx pi@10.42.0.53:
 echo ""
-echo "Loading Mapnik Maps of Bengaluru"
 echo ""
-echo "Integrating GPS data for tracking" 
+echo "Files loaded to device"
+echo ""
 echo ""
 
-sleep 2
-viking vasu.gpx
-sleep 2
-cd  Desktop
-echo  "Enter type of rendering"
-read varname
-if [ $varname -eq  1 ]
-then
-	viking b1.vik
-else
-	viking blore_2.vik
-fi
-sleep 2
+
 
 
 

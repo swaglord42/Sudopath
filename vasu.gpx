@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Graphhopper version 0.8" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2016-10-01T18:29:11Z</time></metadata>
+<wpt lat="12.963327" lon="77.638738"> <name>4th Main Road</name></wpt>
+<wpt lat="12.963582" lon="77.639988"> <name>Finish!</name></wpt>
+<rte>
+<rtept lat="12.963327" lon="77.638738"><desc>continue onto 4th Main Road</desc><extensions><gh:distance>2.5</gh:distance><gh:time>296</gh:time><gh:direction>SE</gh:direction><gh:azimuth>126.09</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="12.963314" lon="77.638757"><desc>turn left onto 1st B Cross</desc><extensions><gh:distance>91.2</gh:distance><gh:time>10939</gh:time><gh:direction>NE</gh:direction><gh:azimuth>25.22</gh:azimuth><gh:sign>-2</gh:sign></extensions></rtept>
+<rtept lat="12.964067" lon="77.639089"><desc>turn right onto 2nd Main Road</desc><extensions><gh:distance>111.5</gh:distance><gh:time>13378</gh:time><gh:direction>SE</gh:direction><gh:azimuth>120.49</gh:azimuth><gh:sign>2</gh:sign></extensions></rtept>
+<rtept lat="12.963582" lon="77.639988"><extensions><gh:distance>0.0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk><name>vasu</name><trkseg>
+<trkpt lat="12.963327" lon="77.638738"><time>2016-10-01T18:29:11Z</time></trkpt>
+<trkpt lat="12.963314" lon="77.638757"><time>2016-10-01T18:29:12Z</time></trkpt>
+<trkpt lat="12.963669" lon="77.638928"><time>2016-10-01T18:29:17Z</time></trkpt>
+<trkpt lat="12.963886" lon="77.639016"><time>2016-10-01T18:29:20Z</time></trkpt>
+<trkpt lat="12.964067" lon="77.639089"><time>2016-10-01T18:29:23Z</time></trkpt>
+<trkpt lat="12.963664" lon="77.63979"><time>2016-10-01T18:29:33Z</time></trkpt>
+<trkpt lat="12.963582" lon="77.639988"><time>2016-10-01T18:29:36Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>
