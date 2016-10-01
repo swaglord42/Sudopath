@@ -1,0 +1,74 @@
+#VIKING GPS Data file http://viking.sf.net/
+
+xmpp=0.250000
+ympp=0.250000
+lat=12.963465
+lon=77.639301
+mode=mercator
+color=#cccccc
+highlightcolor=#eea500
+drawscale=t
+drawcentermark=t
+drawhighlight=t
+
+~Layer Map
+name=Map
+mode=13
+directory=/home/pi/.viking-maps/
+alpha=255
+autodownload=t
+mapzoom=0
+~EndLayer
+
+
+~Layer TrackWaypoint
+name=nanda2.gpx
+tracks_visible=t
+waypoints_visible=t
+drawmode=0
+drawlines=t
+drawpoints=t
+drawelevation=f
+elevation_factor=30
+drawstops=f
+stop_length=60
+line_thickness=1
+bg_line_thickness=0
+trackbgcolor=#ffffff
+velocity_min=0.000000
+velocity_max=5.000000
+drawlabels=t
+wpcolor=#000000
+wptextcolor=#ffffff
+wpbgcolor=#8383c4
+wpbgand=t
+wpsymbol=0
+wpsize=4
+wpsyms=t
+drawimages=t
+image_size=64
+image_alpha=255
+image_cache_size=300
+
+
+~LayerData
+type="waypointlist"
+type="waypoint" latitude="12.963143000000001" longitude="77.639748999999995" name="stopover 1"
+type="waypoint" latitude="12.962960000000001" longitude="77.638593" name="1st B Cross"
+type="waypoint" latitude="12.963716" longitude="77.639700000000005" name="Finish!"
+type="waypoint" latitude="12.96368" longitude="77.638919999999999" name="block2" image="/home/pi/Desktop/logo3.png" symbol="danger area"
+type="waypointlistend"
+type="track" name="nanda2"
+type="trackpoint" latitude="12.962960000000001" longitude="77.638593" unixtime="1475310836" newsegment="yes"
+type="trackpoint" latitude="12.963314" longitude="77.638756999999998" unixtime="1475310841"
+type="trackpoint" latitude="12.962851000000001" longitude="77.639692999999994" unixtime="1475310855"
+type="trackpoint" latitude="12.963143000000001" longitude="77.639748999999995" unixtime="1475310859"
+type="trackpoint" latitude="12.963143000000001" longitude="77.639748999999995" unixtime="1475310859"
+type="trackpoint" latitude="12.963267" longitude="77.639771999999994" unixtime="1475310861"
+type="trackpoint" latitude="12.96345" longitude="77.639782999999994" unixtime="1475310863"
+type="trackpoint" latitude="12.963664" longitude="77.639790000000005" unixtime="1475310866"
+type="trackpoint" latitude="12.963716" longitude="77.639700000000005" unixtime="1475310867"
+type="trackend"
+~EndLayerData
+~EndLayer
+
